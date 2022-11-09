@@ -6,8 +6,8 @@ import Organize from './assets/organize.png';
 const Features = () => {
   return (
     <>
-      <div>
-        <h3 className="flex w-full justify-center mt-16 text-xl font-bold mb-16 ">
+      <div className="h-screen flex flex-col">
+        <h3 className="flex w-full justify-center mt-32 text-xl font-bold mb-16 ">
           Features
         </h3>
         <div className="features">
@@ -26,10 +26,10 @@ const Features = () => {
             </li>
           </ul>
           <div className="btns flex justify-center gap-14 mt-24 font-semibold ">
-            <button className="btn bg-white h-9 w-24 rounded-md cursor-pointer">
+            <button className="btn bg-main-color h-9 w-24 rounded-md cursor-pointer">
               Log In
             </button>
-            <button className="btn bg-white h-9 w-24 rounded-md cursor-pointer">
+            <button className="btn bg-main-color h-9 w-24 rounded-md cursor-pointer">
               Sign Up
             </button>
           </div>

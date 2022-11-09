@@ -7,11 +7,6 @@
     font-family: "Montserrat";
     
 }
-body {
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #68B2A0, #9BBB95);
-    background-repeat: no-repeat;
-}
 
 
 .bar {
